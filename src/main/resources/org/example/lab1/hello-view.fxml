@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.lab1.HelloController">
+    <children>
+        <!-- Выбор фигуры -->
+        <Label layoutX="10" layoutY="10" text="Выберите фигуру:"/>
+        <ComboBox fx:id="shapeBox" layoutX="150" layoutY="10" prefWidth="150"/>
+
+        <!-- Выбор цвета -->
+        <Label layoutX="10" layoutY="50" text="Выберите цвет:"/>
+        <ColorPicker fx:id="colorPicker" layoutX="150" layoutY="50"/>
+
+        <!-- Кнопка Стереть -->
+        <Button layoutX="10" layoutY="90" text="Стереть" onAction="#clearCanvas"/>
+
+        <!-- Canvas для рисования -->
+        <Canvas fx:id="can" layoutX="10" layoutY="130" width="400" height="400" style="-fx-border-color: black;"/>
+    </children>
+</AnchorPane>
