@@ -21,10 +21,10 @@
 ---
 
 ## Ссылка на продукт или демо
-**https** 
+**https:** 
 https://github.com/Lodiger/Lab1_26.09.25.git
 
-**ssh** 
+**ssh:** 
 ```shell
 git@github.com:Lodiger/Lab1_26.09.25.git
 ```
